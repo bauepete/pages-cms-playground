@@ -14,6 +14,18 @@ components:
           label: Zentriert
         - value: right
           label: Rechtsbündig
+
+  textWrap:
+    label: Textfluss
+    type: select
+    options:
+      values:
+        - value: aboveAndBelow
+          label: Oberhalb und unterhalb
+        - value: around
+          label: Text umfließt das Bild
+        - value: none
+          label: Kein Textfluss
           
   image:
     label: Bild
@@ -24,20 +36,7 @@ components:
       - name: alt
         type: string
         required: true
-      - name: alignment
-        component: alignment
-      - name: textWrap
-        label: Textfluss
-        type: select
-        options:
-          values:
-            - value: aboveAndBelow
-              label: Oberhalb und unterhalb
-            - value: around
-              label: Text umfließt das Bild
-            - value: none
-              label: Kein Textfluss
-    
+        
 content:
   - name: pages
     label: Seiten
@@ -91,7 +90,26 @@ content:
                 
           - name: image
             label: Bild
-            component: image
+            fields:
+              - name: image
+                component: image
+                requred: true
+              - name: alignment
+                component: alignment
+              - name: textWrap
+                component: textWrap
+                
+          - name: imageGallery
+            label: Bildergalerie
+            fields:
+              - name: images
+                label: Bilder
+                component: image
+                list: true
+              - name: alignment
+                component: alignment
+              - name: textWrap
+                component: textWrap
 
   - name: posts
     label: Posts
