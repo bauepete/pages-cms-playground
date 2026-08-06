@@ -2,6 +2,30 @@ media:
   input: public/images
   output: /images
 content:
+  - name: pages
+    label: Seiten
+    type: collection
+    path: content/pages
+    fields:
+      - name: content
+        label: Inhalt
+        type: block
+        list: true
+        blockKey: type
+        blocks:
+          - name: image
+            label: Bild
+            fields:
+              - name: src
+                type: image
+              - name: alt
+                type: string
+
+          - name: sectionTitle
+            label: Überschrift 1
+            fields:
+              - name: text
+                type: string
   - name: posts
     label: Posts
     type: collection
@@ -46,28 +70,6 @@ content:
             list: true
             fields:
               - name: title
-                type: string
-  - name: pages
-    label: Seiten
-    type: collection
-    path: content/pages
-    fields:
-      - name: content
-        label: Inhalt
-        type: block
-        list: true
-        blockKey: type
-        blocks:
-          - name: image
-            fields:
-              - name: src
-                type: image
-              - name: alt
-                type: string
-
-          - name: sectionTitle
-            fields:
-              - name: body
                 type: string
               
 actions:
