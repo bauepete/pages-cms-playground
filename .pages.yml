@@ -7,7 +7,7 @@ content:
     type: collection
     path: content/pages
     filename:
-      template: {title}.md
+      template: "{title}.md"
       field: true
     fields:
       - name: title
