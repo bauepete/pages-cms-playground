@@ -18,11 +18,10 @@ content:
       - name: content
         label: Inhalt
         type: block
-        list: true
         blockKey: type
         list:
           collapsible:
-            collapsed: false
+            collapsed: true
             summary: "{type}"
         blocks:
           - name: image
