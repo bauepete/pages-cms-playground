@@ -6,6 +6,9 @@ content:
     label: Seiten
     type: collection
     path: content/pages
+    filename:
+      template: {primary}.md
+      field: create
     fields:
       - name: content
         label: Inhalt
