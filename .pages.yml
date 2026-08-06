@@ -47,6 +47,18 @@ content:
             fields:
               - name: title
                 type: string
+  - name: sections
+    label: Sections
+    type: block
+    list: true
+    blockKey: type
+    blocks:
+      - name: hero
+        component: hero
+      - name: text
+        fields:
+          - name: body
+            type: rich-text  
 actions:
   - name: deploy-site
     label: Deploy site
