@@ -23,7 +23,7 @@ components:
         - value: aboveAndBelow
           label: Oberhalb und unterhalb
         - value: around
-          label: Text umfließt das Bild
+          label: Text umfließt das Element
         - value: none
           label: Kein Textfluss
           
