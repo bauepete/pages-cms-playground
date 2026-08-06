@@ -20,6 +20,10 @@ content:
         type: block
         list: true
         blockKey: type
+        list:
+          collapsible:
+          collapsed: false
+          summary: "{type}"
         blocks:
           - name: image
             label: Bild
