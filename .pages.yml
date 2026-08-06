@@ -53,7 +53,7 @@ content:
         path: content/blockstuff
         fields:
           - name: someText
-            type: string
+            type: boolean
 actions:
   - name: deploy-site
     label: Deploy site
