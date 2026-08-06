@@ -21,6 +21,21 @@ content:
         list: true
         blockKey: type
         blocks:
+          - name: sectionTitle
+            label: Überschrift 1
+            fields:
+              - name: text
+                type: string
+          - name: subsectionTitle
+            label: Überschrift 2
+            fields:
+              - name: text
+                type: string
+          - name: paragraph
+            label: Fließtext
+            fields:
+              - name: text
+              - type: richt-text
           - name: image
             label: Bild
             fields:
@@ -29,11 +44,6 @@ content:
               - name: alt
                 type: string
 
-          - name: sectionTitle
-            label: Überschrift 1
-            fields:
-              - name: text
-                type: string
   - name: posts
     label: Posts
     type: collection
