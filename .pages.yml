@@ -4,8 +4,8 @@ media:
 
 components:
   alignment:
-    type: select
     label: Ausrichtung
+    type: select
     options:
       values:
         - value: left
@@ -14,6 +14,30 @@ components:
           label: Zentriert
         - value: right
           label: Rechtsbündig
+          
+  image:
+    label: Bild
+    fields:
+      - name: src
+        type: image
+        required: true
+      - name: alt
+        type: string
+        required: true
+      - name: alignment
+        component: alignment
+      - name: textWrap
+        label: Textfluss
+        type: select
+        options:
+          values:
+            - value: aboveAndBelow
+              label: Oberhalb und unterhalb
+            - value: around
+              label: Text umfließt das Bild
+            - value: none
+              label: Kein Textfluss
+    
 content:
   - name: pages
     label: Seiten
@@ -67,26 +91,7 @@ content:
                 
           - name: image
             label: Bild
-            fields:
-              - name: src
-                type: image
-                required: true
-              - name: alt
-                type: string
-                required: true
-              - name: alignment
-                component: alignment
-              - name: textWrap
-                label: Textfluss
-                type: select
-                options:
-                  values:
-                    - value: aboveAndBelow
-                      label: Oberhalb und unterhalb
-                    - value: around
-                      label: Text umfließt das Bild
-                    - value: none
-                      label: Kein Textfluss
+            component: image
 
   - name: posts
     label: Posts
