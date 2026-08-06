@@ -24,10 +24,16 @@ content:
       3. B
 
   - type: paragraph
-    text: |+
+    text: |-
       > Zazen bedeutet, dass unser Selbst
       >
       > unser Selbst unser Selbst sein lässt
 
       KoDo Sawaki
+  - type: sectionTitle
+    text: Links
+  - type: paragraph
+    text: |-
+      - [HTL Leonding](www.htl-leonding.at)
+      - [Genussmodlerei](www.genussmodlerei.at)
 ---
