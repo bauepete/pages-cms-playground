@@ -53,12 +53,18 @@ content:
               - name: text
                 type: string
                 required: true
+              - name: alignment
+                component: alignment
+                
           - name: paragraph
             label: Fließtext
             fields:
               - name: text
                 type: rich-text
                 required: true
+              - name: alignment
+                component: alignment
+                
           - name: image
             label: Bild
             fields:
@@ -69,7 +75,6 @@ content:
                 type: string
                 required: true
               - name: alignment
-                label: Ausrichtung
                 component: alignment
               - name: textWrap
                 label: Textfluss
