@@ -60,8 +60,10 @@ content:
         blocks:
           - name: image
             fields:
-              - name: image
+              - name: src
                 type: image
+              - name: alt
+                type: string
 
           - name: sectionTitle
             fields:
