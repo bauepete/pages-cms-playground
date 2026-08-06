@@ -33,12 +33,14 @@ content:
       KoDo Sawaki
   - type: sectionTitle
     text: Links
+    alignment: centered
   - type: paragraph
     text: |+
       - [HTL Leonding](www.htl-leonding.at)
       - [Genussmodlerei](www.genussmodlerei.at)
       - siehe [Impressum](#impressum)
 
+    alignment: right
   - type: paragraph
     text: |-
       This text
