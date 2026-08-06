@@ -1,6 +1,6 @@
 media:
-  input: src/media
-  output: /media
+  input: public/images
+  output: /images
 content:
   - name: posts
     label: Posts
@@ -52,8 +52,8 @@ content:
     type: collection
     path: content/pages
     fields:
-      - name: oita
-        label: Oita
+      - name: content
+        label: Inhalt
         type: block
         list: true
         blockKey: type
@@ -65,7 +65,7 @@ content:
               - name: image
                 type: image
 
-          - name: text
+          - name: sectionTitle
             fields:
               - name: body
                 type: rich-text
