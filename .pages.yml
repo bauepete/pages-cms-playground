@@ -46,6 +46,28 @@ content:
                 type: image
               - name: alt
                 type: string
+              - name: placement
+                label: Ausrichtung
+                type: select
+                options:
+                  values:
+                    - value: left
+                      label: Links
+                    - value: centered
+                      label: Zentriert
+                    - value: right
+                      label: Rechts
+              - name: textWrap
+                label: Textfluss
+                type: select
+                options:
+                  values:
+                    - value: aboveAndBelow
+                      label: Oberhalb und unterhalb
+                    - value: around
+                      label: Text umfließt das Bild
+                    - value: none
+                      label: Kein Textfluss
 
   - name: posts
     label: Posts
