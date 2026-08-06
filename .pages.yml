@@ -44,6 +44,9 @@ content:
               - name: text
                 type: string
                 required: true
+              - name: alignment
+                component: alignment
+              
           - name: subsectionTitle
             label: Überschrift 2
             fields:
