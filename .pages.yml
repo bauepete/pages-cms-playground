@@ -29,6 +29,7 @@ content:
             fields:
               - name: text
                 type: string
+                required: true
           - name: subsectionTitle
             label: Überschrift 2
             fields:
