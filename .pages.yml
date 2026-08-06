@@ -52,8 +52,18 @@ content:
         type: collection
         path: content/blockstuff
         fields:
-          - name: heast
-            type: boolean
+          - name: oita
+            type: block
+            list: true
+            blockKey: type
+            blocks:
+              - name: hero
+                component: hero
+              - name: text
+                fields:
+                  - name: body
+                    type: rich-text  
+
 actions:
   - name: deploy-site
     label: Deploy site
