@@ -1,6 +1,19 @@
 media:
   input: public/images
   output: /images
+
+components:
+  alignment:
+    type: select
+    label: Ausrichtung
+    options:
+      values:
+        - value: left
+          label: Linksbündig
+        - value: centered
+          label: Zentriert
+        - value: right
+          label: Rechtsbündig
 content:
   - name: pages
     label: Seiten
@@ -52,17 +65,9 @@ content:
               - name: alt
                 type: string
                 required: true
-              - name: placement
+              - name: alignment
                 label: Ausrichtung
-                type: select
-                options:
-                  values:
-                    - value: left
-                      label: Links
-                    - value: centered
-                      label: Zentriert
-                    - value: right
-                      label: Rechts
+                component: alignment
               - name: textWrap
                 label: Textfluss
                 type: select
