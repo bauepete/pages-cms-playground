@@ -22,8 +22,8 @@ content:
         blockKey: type
         list:
           collapsible:
-          collapsed: false
-          summary: "{type}"
+            collapsed: false
+            summary: "{type}"
         blocks:
           - name: image
             label: Bild
