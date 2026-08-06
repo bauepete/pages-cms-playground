@@ -22,6 +22,31 @@ content:
         type: text
       - name: url
         type: string
+  - name: docs
+    label: Docs
+    type: group
+    items:
+      - name: pages
+        label: Pages
+        type: collection
+        path: content/pages
+        fields:
+          - name: title
+            type: string
+
+      - name: references
+        label: References
+        type: group
+        items:
+          - name: publications
+            label: Publications
+            type: file
+            path: data/publications.json
+            format: json
+            list: true
+            fields:
+              - name: title
+                type: string
 actions:
   - name: deploy-site
     label: Deploy site
