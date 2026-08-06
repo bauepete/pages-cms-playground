@@ -7,9 +7,14 @@ content:
     type: collection
     path: content/pages
     filename:
-      template: {primary}.md
+      template: {title}.md
       field: true
     fields:
+      - name: title
+        label: Titel
+        type: string
+        required: true
+        
       - name: content
         label: Inhalt
         type: block
