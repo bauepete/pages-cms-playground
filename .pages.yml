@@ -52,7 +52,7 @@ content:
         type: collection
         path: content/blockstuff
         fields:
-          - name: someText
+          - name: heast
             type: boolean
 actions:
   - name: deploy-site
