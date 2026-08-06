@@ -14,7 +14,10 @@ content:
         label: Titel
         type: string
         required: true
-        
+
+      - name: lead
+        label: Vorspann
+        type: rich-text
       - name: content
         label: Inhalt
         type: block
@@ -35,7 +38,7 @@ content:
             label: Fließtext
             fields:
               - name: text
-                type: richt-text
+                type: rich-text
           - name: image
             label: Bild
             fields:
