@@ -42,7 +42,7 @@ content:
     text: |-
       This text
 
-      has linebreak at
+      has linebreaks at
 
       weird places
 ---
