@@ -19,10 +19,6 @@ content:
         label: Inhalt
         type: block
         blockKey: type
-        list:
-          collapsible:
-            collapsed: true
-            summary: "{name}"
         blocks:
           - name: image
             label: Bild
