@@ -22,4 +22,12 @@ content:
       1. C
       2. A
       3. B
+
+  - type: paragraph
+    text: |+
+      > Zazen bedeutet, dass unser Selbst
+      >
+      > unser Selbst unser Selbst sein lässt
+
+      KoDo Sawaki
 ---
