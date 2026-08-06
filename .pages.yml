@@ -11,7 +11,7 @@ content:
         type: string
       - name: body
         type: rich-text
-  - name: site
+  - name: siteSettings
     label: Site settings
     type: file
     path: src/_data/site.json
@@ -26,10 +26,10 @@ content:
     label: Docs
     type: group
     items:
-      - name: pages
-        label: Pages
+      - name: docsPages
+        label: Docs Pages
         type: collection
-        path: content/pages
+        path: content/docsPages
         fields:
           - name: title
             type: string
@@ -47,10 +47,10 @@ content:
             fields:
               - name: title
                 type: string
-  - name: blockstuff
-    label: Try the Block
+  - name: pages
+    label: Seiten
     type: collection
-    path: content/blockstuff
+    path: content/pages
     fields:
       - name: oita
         label: Oita
