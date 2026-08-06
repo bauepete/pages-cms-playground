@@ -6,7 +6,8 @@ content:
   - type: image
     src: /images/Passfoto.jpg
     alt: ok
-    placement: left
-    textWrap: around
+    alignment: left
+    textWrap: aboveAndBelow
   - type: subsectionTitle
+    text: Ok, jetzt auch required
 ---
