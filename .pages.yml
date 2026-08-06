@@ -58,17 +58,15 @@ content:
         list: true
         blockKey: type
         blocks:
-          - name: hero
+          - name: image
             fields:
-              - name: heading
-                type: string
-              - name: image
-                type: image
+              name: image
+              type: image
 
           - name: sectionTitle
             fields:
               - name: body
-                type: rich-text
+                type: string
               
 actions:
   - name: deploy-site
