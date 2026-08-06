@@ -52,18 +52,8 @@ content:
         type: collection
         path: content/blockstuff
         fields:
-          - name: sections
-            label: Sections
-            type: block
-            list: true
-            blockKey: type
-            blocks:
-              - name: hero
-                component: hero
-              - name: text
-                fields:
-                  - name: body
-                    type: rich-text  
+          - name: someText
+            type: string
 actions:
   - name: deploy-site
     label: Deploy site
