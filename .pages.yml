@@ -8,7 +8,7 @@ content:
     path: content/pages
     filename:
       template: {primary}.md
-      field: create
+      field: true
     fields:
       - name: content
         label: Inhalt
