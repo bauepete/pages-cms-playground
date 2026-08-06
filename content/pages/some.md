@@ -10,4 +10,8 @@ content:
     textWrap: aboveAndBelow
   - type: subsectionTitle
     text: Ok, jetzt auch required
+  - type: image
+    src: /images/c0a.jpg
+    alt: Linz
+    textWrap: around
 ---
