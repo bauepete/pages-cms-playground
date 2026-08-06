@@ -47,23 +47,29 @@ content:
             fields:
               - name: title
                 type: string
-      - name: blockstuff
-        label: Try the Block
-        type: collection
-        path: content/blockstuff
-        fields:
-          - name: oita
-            type: block
-            list: true
-            blockKey: type
-            blocks:
-              - name: hero
-                component: hero
-              - name: text
-                fields:
-                  - name: body
-                    type: rich-text  
+    - name: blockstuff
+      label: Try the Block
+      type: collection
+      path: content/blockstuff
+      fields:
+        - name: oita
+          label: Oita
+          type: block
+          list: true
+          blockKey: type
+          blocks:
+            - name: hero
+              fields:
+                - name: heading
+                  type: string
+                - name: image
+                  type: image
 
+            - name: text
+              fields:
+                - name: body
+                  type: rich-text
+              
 actions:
   - name: deploy-site
     label: Deploy site
