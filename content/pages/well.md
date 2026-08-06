@@ -33,7 +33,16 @@ content:
   - type: sectionTitle
     text: Links
   - type: paragraph
-    text: |-
+    text: |+
       - [HTL Leonding](www.htl-leonding.at)
       - [Genussmodlerei](www.genussmodlerei.at)
+      - siehe [Impressum](#impressum)
+
+  - type: paragraph
+    text: |-
+      This text
+
+      has linebreak at
+
+      weird places
 ---
