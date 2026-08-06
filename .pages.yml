@@ -22,7 +22,7 @@ content:
         list:
           collapsible:
             collapsed: true
-            summary: "{type}"
+            summary: "{name}"
         blocks:
           - name: image
             label: Bild
