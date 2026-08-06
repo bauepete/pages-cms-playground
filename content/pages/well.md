@@ -4,6 +4,7 @@ lead: Dies ist der erste sinnvolle Weg
 content:
   - type: sectionTitle
     text: Wie es dazu kam
+    alignment: left
   - type: paragraph
     text: Mit vielen Schmerzen
   - type: image
