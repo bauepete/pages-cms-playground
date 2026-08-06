@@ -18,6 +18,7 @@ content:
       - name: lead
         label: Vorspann
         type: rich-text
+        
       - name: content
         label: Inhalt
         type: block
@@ -35,18 +36,22 @@ content:
             fields:
               - name: text
                 type: string
+                required: true
           - name: paragraph
             label: Fließtext
             fields:
               - name: text
                 type: rich-text
+                required: true
           - name: image
             label: Bild
             fields:
               - name: src
                 type: image
+                required: true
               - name: alt
                 type: string
+                required: true
               - name: placement
                 label: Ausrichtung
                 type: select
