@@ -18,6 +18,7 @@ content:
       - name: content
         label: Inhalt
         type: block
+        list: true
         blockKey: type
         blocks:
           - name: image
