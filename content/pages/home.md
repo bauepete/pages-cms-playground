@@ -5,29 +5,25 @@ lead: >+
   reinen So-Sein der Wirklichkeit: Einheit und Leerheit.**
 
 content:
-  - type: sectionTitle
-    text: Was tun? - NICHTS!
   - type: paragraph
     text: |+
-      - **Nicht Üben, ohne das zu wollen (wu wei)**
+      ## Was tun? - NICHTS!
+
+      - **Nicht-Üben, ohne das zu wollen (wu wei)**
       - **Nicht-Verstehen-Wollen, ohne das zu wollen (wu nien)**
 
-  - type: subsectionTitle
-    text: Voraussetzungen
-  - type: paragraph
-    text: |+
+      ### Voraussetzungen
+
       - Erfahrungen mit Zazen und Kinhin
       - Entschlossenheit zur täglichen Praxis
       - Disziplin zur regelmäßigen Teilnahme
 
-  - type: subsectionTitle
-    text: "Zeit: Montag, 18:30 - 20:00"
-  - type: subsectionTitle
-    text: "Ort: Linz - Pichling"
-  - type: paragraph
-    text: |+
-      - 6-Personen-Gruppe
-      - Einstieg ist jederzeit möglich
+      ### Zeit: Montag, 18:30 - 20:00
+
+      ### Ort: Linz-Pichling
+
+      - 6 Personen
+      - Einstieg jederzeit möglich
 
       Freie Plätze: 1
 
@@ -37,7 +33,7 @@ content:
 
       > Zazen bedeutet, dass unser Selbst
       >
-      > unser Selbst unser Selbst sein lässt.
+      > unser Selbst unser Selbst sein lässt
       >
       > (Kōdō Sawaki)
 ---
